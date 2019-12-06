@@ -1,7 +1,7 @@
 import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 
-function getPosts() {
+const getPosts = () => {
   return [
     { id: 'hello-nextjs', title: 'Hello Next.js' },
     { id: 'learn-nextjs', title: 'Learn Next.js is awesome' },
